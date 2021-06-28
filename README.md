@@ -1,0 +1,1 @@
+My Bachelor's Thesis modeled after Maximilian Nöthe's (maxnoe) template for thesises at TU Dortmund.
