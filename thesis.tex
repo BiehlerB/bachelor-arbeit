@@ -63,8 +63,7 @@
 \setmathfont{Latin Modern Math}
 
 % nice, small fracs for the text with \sfrac{}{}
-\usepackage{xfrac}  
-
+\usepackage{xfrac}
 
 %------------------------------------------------------------------------------
 %---------------------------- Numbers and Units -------------------------------
@@ -140,15 +139,15 @@
 %------------------------------------------------------------------------------
 
 \author{Benjamin Biehler}
-\title{Graphisch-interaktive Entwicklungsumgebung für Robotersysteme zum Einsatz in den Rehabilitationswissenschaften }
+\title{Graphisch-interaktive Entwicklungsumgebung für Robotersysteme zum Einsatz in den Rehabilitationswissenschaften}
 \date{2021}
 \birthplace{Nürnberg}
 \chair{Lehrstuhl für Computergraphik VII}
 \division{Fakultät Informatik}
 \thesisclass{Bachelor of Science}
-\submissiondate{31. August 2021}			% TODO Abgabedatum
-\firstcorrector{Prof.~Dr.~Erstgutachter}	% TODO Gutachter?
-\secondcorrector{Prof.~Dr.~Zweitgutachter}
+\submissiondate{31. August 2021 ?}			% TODO Abgabedatum
+\firstcorrector{PD~Dr.~Weichert}
+\secondcorrector{Prof.~Dr.-Ing.~Bühler}
 
 % tu logo on top of the titlepage
 \titlehead{\includegraphics[height=1.5cm]{logos/tu-logo.pdf}}
@@ -166,18 +165,19 @@
 
 \mainmatter
 % Hier beginnt der Inhalt mit Seite 1 in arabischen Ziffern
-\input{content/01_einleitung.tex}
-\input{content/02_grundlagen.tex}
-\input{content/03_methodik.tex}
-\input{content/04_ergebnisse.tex}
-\input{content/05_zsfg_ausblick.tex}
+\input{content/01_einleitung.tex} 		%  3 Seiten
+\input{content/02_grundlagen.tex}		%  8 Seiten
+\input{content/03_methodik.tex}			% 19 Seiten
+\input{content/04_ergebnisse.tex}		% 25 Seiten
+\input{content/05_zsfg_ausblick.tex}	%  2 Seiten -> 57 Seiten ! nochmal angepasst
 
 \appendix
 % Hier beginnt der Anhang, nummeriert in lateinischen Buchstaben
-\input{content/a_anhang.tex}
+\input{content/a_code.tex}
 
 \backmatter
 \printbibliography
+\listoffigures
 
 \cleardoublepage
 \input{content/eid_versicherung.tex}

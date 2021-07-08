@@ -19,266 +19,127 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{einstein}{article}{}
-      \name{author}{1}{}{%
-        {{hash=29a34a00e610eaed35baff40f473278f}{%
-           family={Einstein},
-           familyi={E\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{29a34a00e610eaed35baff40f473278f}
-      \strng{fullhash}{29a34a00e610eaed35baff40f473278f}
-      \strng{bibnamehash}{29a34a00e610eaed35baff40f473278f}
-      \strng{authorbibnamehash}{29a34a00e610eaed35baff40f473278f}
-      \strng{authornamehash}{29a34a00e610eaed35baff40f473278f}
-      \strng{authorfullhash}{29a34a00e610eaed35baff40f473278f}
-      \field{sortinit}{E}
-      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Annals of Mathematics}
-      \field{number}{4}
-      \field{title}{A Generalization of the relativistic theory of Gravitation}
-      \field{volume}{46}
-      \field{year}{1945}
-      \field{pages}{578\bibrangedash 584}
-      \range{pages}{7}
-    \endentry
-    \entry{l2tabu}{manual}{}
-      \name{author}{2}{}{%
-        {{hash=742d0716dcbb71e996d9bed8472b5eb7}{%
-           family={Ensenbach},
-           familyi={E\bibinitperiod},
-           given={Marc},
+    \entry{Arnowitz2010EffectivePSM}{book}{}
+      \name{author}{3}{}{%
+        {{hash=56d2233696ba5c32f70b8b0bd020fb41}{%
+           family={Arnowitz},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0dd4b2e25c53c92f815df06f14c72e8c}{%
+           family={Arent},
+           familyi={A\bibinitperiod},
+           given={M.},
            giveni={M\bibinitperiod}}}%
-        {{hash=adc740270dcb72e5cf4685c626f4845e}{%
-           family={Trettin},
-           familyi={T\bibinitperiod},
-           given={Mark},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{0667c5674e19e2953b31f08b8d9093d5}
-      \strng{fullhash}{0667c5674e19e2953b31f08b8d9093d5}
-      \strng{bibnamehash}{0667c5674e19e2953b31f08b8d9093d5}
-      \strng{authorbibnamehash}{0667c5674e19e2953b31f08b8d9093d5}
-      \strng{authornamehash}{0667c5674e19e2953b31f08b8d9093d5}
-      \strng{authorfullhash}{0667c5674e19e2953b31f08b8d9093d5}
-      \field{sortinit}{E}
-      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Das LATEX2ε-Sündenregister}
-      \field{year}{2011}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb ftp://ftp.mpi-sb.mpg.de/pub/tex/mirror/ftp.dante.de/pub/tex/info/l2tabu/german/l2tabu.pdf
-      \endverb
-      \verb{url}
-      \verb ftp://ftp.mpi-sb.mpg.de/pub/tex/mirror/ftp.dante.de/pub/tex/info/l2tabu/german/l2tabu.pdf
-      \endverb
-    \endentry
-    \entry{gitbash}{online}{}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
-      \field{labeltitlesource}{title}
-      \field{title}{Git Bash - Download}
-      \field{year}{2014}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb http://msysgit.github.io/
-      \endverb
-      \verb{url}
-      \verb http://msysgit.github.io/
-      \endverb
-    \endentry
-    \entry{make}{online}{}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
-      \field{labeltitlesource}{title}
-      \field{title}{Gnu-Make Homepage}
-      \field{year}{2014}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb http://www.gnu.org/software/make/
-      \endverb
-      \verb{url}
-      \verb http://www.gnu.org/software/make/
-      \endverb
-    \endentry
-    \entry{koma}{manual}{}
-      \name{author}{2}{}{%
-        {{hash=ef6495d81d29fa9940e9d8ca208f831e}{%
-           family={Kohm},
-           familyi={K\bibinitperiod},
-           given={Markus},
-           giveni={M\bibinitperiod}}}%
-        {{hash=22c900f39257902066bb7f71bb6a25df}{%
-           family={Morawski},
-           familyi={M\bibinitperiod},
-           given={Jens-Uwe},
-           giveni={J\bibinithyphendelim U\bibinitperiod}}}%
-      }
-      \strng{namehash}{fdb1bb33f648df3a4e6c68803e9b8055}
-      \strng{fullhash}{fdb1bb33f648df3a4e6c68803e9b8055}
-      \strng{bibnamehash}{fdb1bb33f648df3a4e6c68803e9b8055}
-      \strng{authorbibnamehash}{fdb1bb33f648df3a4e6c68803e9b8055}
-      \strng{authornamehash}{fdb1bb33f648df3a4e6c68803e9b8055}
-      \strng{authorfullhash}{fdb1bb33f648df3a4e6c68803e9b8055}
-      \field{sortinit}{K}
-      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{subtitle}{ein wandelbares LaTeX-Paket}
-      \field{title}{KOMA -Script}
-      \field{year}{2013}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb http://mirror.selfnet.de/tex-archive/macros/latex/contrib/koma-script/doc/scrguide.pdf
-      \endverb
-      \verb{url}
-      \verb http://mirror.selfnet.de/tex-archive/macros/latex/contrib/koma-script/doc/scrguide.pdf
-      \endverb
-    \endentry
-    \entry{kuypers}{book}{}
-      \name{author}{1}{}{%
-        {{hash=ae5babec72340ac254380c60bbf6d783}{%
-           family={Kuypers},
-           familyi={K\bibinitperiod},
-           given={Friedhelm},
-           giveni={F\bibinitperiod}}}%
+        {{hash=fd3de89a63c3c7208d45a36a51dd649c}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Wiley-VCH}%
+        {Elsevier Science}%
       }
-      \strng{namehash}{ae5babec72340ac254380c60bbf6d783}
-      \strng{fullhash}{ae5babec72340ac254380c60bbf6d783}
-      \strng{bibnamehash}{ae5babec72340ac254380c60bbf6d783}
-      \strng{authorbibnamehash}{ae5babec72340ac254380c60bbf6d783}
-      \strng{authornamehash}{ae5babec72340ac254380c60bbf6d783}
-      \strng{authorfullhash}{ae5babec72340ac254380c60bbf6d783}
-      \field{sortinit}{K}
-      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \strng{namehash}{d5b61bce3ea586231017eb811466c01b}
+      \strng{fullhash}{d5b61bce3ea586231017eb811466c01b}
+      \strng{bibnamehash}{d5b61bce3ea586231017eb811466c01b}
+      \strng{authorbibnamehash}{d5b61bce3ea586231017eb811466c01b}
+      \strng{authornamehash}{d5b61bce3ea586231017eb811466c01b}
+      \strng{authorfullhash}{d5b61bce3ea586231017eb811466c01b}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{series}{9. Auflage}
-      \field{title}{Klassische Mechanik}
+      \field{abstract}{Much as we hate to admit it, most prototyping practice lacks a sophisticated understanding of the broad concepts of prototypingand its strategic position within the development process. Often we overwhelm with a high fidelity prototype that designs us into a corner. Or, we can underwhelm with a prototype with too much ambiguity and flexibility to be of much use in the software development process. This book will help software makersdevelopers, designers, and architectsbuild effective prototypes every time: prototypes that convey enough information about the product at the appropriate time and thus set expectations appropriately. This practical, informative book will help anyonewhether or not one has artistic talent, access to special tools, or programming abilityto use good prototyping style, methods, and tools to build prototypes and manage for effective prototyping. Features * A prototyping process with guidelines, templates, and worksheets; * Overviews and step-by-step guides for 9 common prototyping techniques; * An introduction with step-by-step guidelines to a variety of prototyping tools that do not require advanced artistic skills; * Templates and other resources used in the book available on the Web for reuse; * Clearly-explained concepts and guidelines; * Full-color illustrations, and examples from a wide variety of prototyping processes, methods, and tools. Jonathan Arnowitz is a principal user experience designer at SAP Labs and is the co-editor-in-chief of Interactions Magazine. Most recently Jonathan was a senior user experience designer at Peoplesoft. He is a member of the SIGCHI executive committee, and was a founder of DUX, the first ever joint conference of ACM SIGCHI, ACM SIGGRAPH, AIGA Experience Design Group, and STC. Michael Arent is the manager of user experience design at SAP Labs, and has previously held positions at Peoplesoft, Inc, Adobe Systems, Inc, Sun Microsystems, and Apple Computer, Inc. He holds several U.S. patents. Nevin Berger is design director at Ziff Davis Media. Previously he was a senior interaction designer at Oracle Corporation and Peoplesoft, Inc., and has held creative director positions at ZDNet, World Savings, and OFOTO, Inc. * A prototyping process with guidelines, templates, and worksheets; * Overviews and step-by-step guides for 9 common prototyping techniques; * An introduction with step-by-step guidelines to a variety of prototyping tools that do not require advanced artistic skills; * Templates and other resources used in the book available on the Web for reuse; * Clearly-explained concepts and guidelines; * Full-color illustrations, and examples from a wide variety of prototyping processes, methods, and tools. * www.mkp.com/prototyping.}
+      \field{isbn}{9780080468969}
+      \field{series}{Interactive Technologies}
+      \field{title}{Effective Prototyping for Software Makers}
       \field{year}{2010}
     \endentry
-    \entry{biblatex}{manual}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=97afecc8539f253db93a1c737d62212c}{%
-           family={Lehman},
-           familyi={L\bibinitperiod},
-           given={Philipp},
-           giveni={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{34e4cbaf0989c9ce668a625f61e8360c}
-      \strng{fullhash}{34e4cbaf0989c9ce668a625f61e8360c}
-      \strng{bibnamehash}{34e4cbaf0989c9ce668a625f61e8360c}
-      \strng{authorbibnamehash}{34e4cbaf0989c9ce668a625f61e8360c}
-      \strng{authornamehash}{34e4cbaf0989c9ce668a625f61e8360c}
-      \strng{authorfullhash}{34e4cbaf0989c9ce668a625f61e8360c}
-      \field{sortinit}{L}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{subtitle}{Programmable Bibliographies and Citations}
-      \field{title}{The Biblatex Package}
-      \field{year}{2014}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb ftp://ftp.fu-berlin.de/tex/CTAN/macros/latex/contrib/biblatex/doc/biblatex.pdf
-      \endverb
-      \verb{url}
-      \verb ftp://ftp.fu-berlin.de/tex/CTAN/macros/latex/contrib/biblatex/doc/biblatex.pdf
-      \endverb
-    \endentry
-    \entry{toolbox}{online}{}
-      \field{sortinit}{P}
-      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
-      \field{labeltitlesource}{title}
-      \field{title}{Pep et al.\ Toolbox -- \LaTeX-Folien}
-      \field{year}{2014}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb http://toolbox.pep-dortmund.org/files/archive/2014/latex.pdf
-      \endverb
-      \verb{url}
-      \verb http://toolbox.pep-dortmund.org/files/archive/2014/latex.pdf
-      \endverb
-    \endentry
-    \entry{handbook_adhesives}{book}{}
-      \name{editor}{1}{}{%
-        {{hash=b7b0080a9cc23abc91eea6e5f22448f1}{%
-           family={Satas},
+    \entry{Schnell2018MethodenES}{book}{}
+      \name{author}{3}{}{%
+        {{hash=ece7d4609ffd8eb43404ade5067ebabe}{%
+           family={Schnell},
            familyi={S\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {New York}%
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=81ec0e070abea1e116142a4c4a7d51c3}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8ffb3d1f1b712e1d37bb38a93dcffd68}{%
+           family={Esser},
+           familyi={E\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Van Nostrand Reinhold}%
+        {De Gruyter Oldenbourg}%
       }
-      \strng{namehash}{b7b0080a9cc23abc91eea6e5f22448f1}
-      \strng{fullhash}{b7b0080a9cc23abc91eea6e5f22448f1}
-      \strng{bibnamehash}{b7b0080a9cc23abc91eea6e5f22448f1}
-      \strng{editorbibnamehash}{b7b0080a9cc23abc91eea6e5f22448f1}
-      \strng{editornamehash}{b7b0080a9cc23abc91eea6e5f22448f1}
-      \strng{editorfullhash}{b7b0080a9cc23abc91eea6e5f22448f1}
+      \strng{namehash}{b28a75d5bb7e882c5dfeeba27eb619d6}
+      \strng{fullhash}{b28a75d5bb7e882c5dfeeba27eb619d6}
+      \strng{bibnamehash}{b28a75d5bb7e882c5dfeeba27eb619d6}
+      \strng{authorbibnamehash}{b28a75d5bb7e882c5dfeeba27eb619d6}
+      \strng{authornamehash}{b28a75d5bb7e882c5dfeeba27eb619d6}
+      \strng{authorfullhash}{b28a75d5bb7e882c5dfeeba27eb619d6}
       \field{sortinit}{S}
       \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{labelnamesource}{editor}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{2nd}
-      \field{title}{Handbook of pressure sensitive adhesive technology}
-      \field{year}{1989}
+      \field{abstract}{Dieser Bestseller mit über 70.000 verkauften Exemplaren holt den Studierenden am Studienbeginn ab und führt ihn erfolgreich in die empirische Sozialforschung ein. Dabei schafft das Lehrbuch vielfältig den methodischen Brückenschlag von empirischer Sozialforschung und soziologischer Theorie. Es stellt Verfahren und Sachverhalte nicht nur vor, sondern erklärt sie verständlich. Die kritische Darstellung auch der neueren Entwicklungen der Methoden der empirischen Sozialforschung und ihrer Grundlagen weist über andere Lehrbücher hinaus. Auch daher ist dieses Lehrbuch das am häufigsten zitierte Lehrbuch zum Thema in deutscher Sprache.Für die 11. Auflage wurde der Band u.a. um Abschnitte über Big Data in den Sozialwissenschaften, zu adaptiven Designs bei Befragungen und zum Web-Scraping erweitert.}
+      \field{isbn}{9783110577327}
+      \field{title}{Methoden der empirischen Sozialforschung}
+      \field{year}{2018}
     \endentry
-    \entry{texmaker}{online}{}
-      \field{sortinit}{T}
-      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
-      \field{labeltitlesource}{title}
-      \field{subtitle}{The universal LaTeX editor, Downloads}
-      \field{title}{Texmaker}
-      \field{year}{2014}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb http://www.xm1math.net/texmaker/download.html
-      \endverb
-      \verb{url}
-      \verb http://www.xm1math.net/texmaker/download.html
-      \endverb
-    \endentry
-    \entry{siunitx}{manual}{}
-      \name{author}{1}{}{%
-        {{hash=93c71fed62527d4c8c6ae13ee771fcdd}{%
-           family={Wright},
+    \entry{Winterer2020ExpertRABIRP}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=bdb001aa757e7c3aec0e732fe67a0427}{%
+           family={Winterer},
            familyi={W\bibinitperiod},
-           given={Joseph},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b35b6cac8e7d176566c5ce4fb0cbb36b}{%
+           family={Salomon},
+           familyi={S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8e60cc5e17ed5d63d195dfbf7beff178}{%
+           family={Köberle},
+           familyi={K\bibinitperiod},
+           given={J.},
            giveni={J\bibinitperiod}}}%
+        {{hash=39b83040b2a02c58c62c50cb6d49fcee}{%
+           family={Ramler},
+           familyi={R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d8035d93d31a1129410d99d13ec94418}{%
+           family={Schittengruber},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{93c71fed62527d4c8c6ae13ee771fcdd}
-      \strng{fullhash}{93c71fed62527d4c8c6ae13ee771fcdd}
-      \strng{bibnamehash}{93c71fed62527d4c8c6ae13ee771fcdd}
-      \strng{authorbibnamehash}{93c71fed62527d4c8c6ae13ee771fcdd}
-      \strng{authornamehash}{93c71fed62527d4c8c6ae13ee771fcdd}
-      \strng{authorfullhash}{93c71fed62527d4c8c6ae13ee771fcdd}
+      \strng{namehash}{d7eb72901349a29a2fbc9df8cda87397}
+      \strng{fullhash}{80572a8709f94ad3f7c0aac9b76a8d5a}
+      \strng{bibnamehash}{d7eb72901349a29a2fbc9df8cda87397}
+      \strng{authorbibnamehash}{d7eb72901349a29a2fbc9df8cda87397}
+      \strng{authornamehash}{d7eb72901349a29a2fbc9df8cda87397}
+      \strng{authorfullhash}{80572a8709f94ad3f7c0aac9b76a8d5a}
       \field{sortinit}{W}
       \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{siunitx - A comprehensive (SI) units package}
-      \field{year}{2013}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb http://mirror.selfnet.de/tex-archive/macros/latex/contrib/siunitx/siunitx.pdf
-      \endverb
-      \verb{url}
-      \verb http://mirror.selfnet.de/tex-archive/macros/latex/contrib/siunitx/siunitx.pdf
+      \field{abstract}{The paradigm shift triggered by Industry 4.0 leads to a fast rising number of industrial machinery and collaborative robots that increases the need for flexible customization of production processes and automation workflows. End-user programming of industrial robots has become an essential capability for all areas in industry. In this paper, we investigate the applicability of block-based programming languages for large and complex robot programs. Therefore, we implemented a real-world program for industrial robots using Blockly, a block-based visual language, and assessed the results regarding portability, readability, understandability, and maintainability. Our findings are, that (1) large and complex real-world robot programs can be expressed in Blockly, (2) that the readability and understandability of such programs is equal to conventional flow-chart based programming languages, and (3) that the maintainability of Blockly programs can even be considered better than in flowchart based languages. Our results and findings serve as basis for usability studies with end-users in robot programming.}
+      \field{booktitle}{2020 25th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA)}
+      \field{issn}{1946-0759}
+      \field{month}{9}
+      \field{title}{An Expert Review on the Applicability of Blockly for Industrial Robot Programming}
+      \field{year}{2020}
+      \field{pages}{1231\bibrangedash 1234}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ETFA46521.2020.9212036
       \endverb
     \endentry
   \enddatalist

@@ -11,6 +11,7 @@
 \LoadClass[
   headsepline,            % line  between header and text body
   bibliography=totoc,     % bibliography as unnumbered chapter in toc
+  listof=totoc,     %Biehler: unnumbered chapter for lof
   numbers=noenddot,       % no dot after figure/table number
   captions=tableheading,  % correct spacing for table headings
   titlepage=firstiscover, % symmetrical margins on titlepage

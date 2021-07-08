@@ -1,17 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.13
 [0] Config.pm:307> INFO - Logfile is 'thesis.blg'
-[56] biber-MSWIN32:315> INFO - === 
-[85] Biber.pm:375> INFO - Reading 'thesis.bcf'
-[216] Biber.pm:905> INFO - Found 11 citekeys in bib section 0
-[238] Biber.pm:4196> INFO - Processing section 0
-[240] Utils.pm:75> INFO - Globbing data source 'references.bib'
-[263] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
-[279] Biber.pm:4373> INFO - Looking for bibtex format file 'references.bib' for section 0
-[285] bibtex.pm:1462> INFO - LaTeX decoding ...
-[302] bibtex.pm:1281> INFO - Found BibTeX data source 'references.bib'
-[371] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[371] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[372] Biber.pm:4024> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[372] Biber.pm:4030> INFO - No sort tailoring available for locale 'de-DE'
-[391] bbl.pm:648> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[396] bbl.pm:751> INFO - Output to thesis.bbl
+[76] biber-MSWIN32:315> INFO - === 
+[112] Biber.pm:375> INFO - Reading 'thesis.bcf'
+[362] Biber.pm:905> INFO - Found 3 citekeys in bib section 0
+[393] Biber.pm:4196> INFO - Processing section 0
+[404] Utils.pm:75> INFO - Globbing data source 'references.bib'
+[422] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
+[441] Biber.pm:4373> INFO - Looking for bibtex format file 'references.bib' for section 0
+[450] bibtex.pm:1462> INFO - LaTeX decoding ...
+[512] bibtex.pm:1281> INFO - Found BibTeX data source 'references.bib'
+[538] Utils.pm:300> WARN - month field 'Sep.' in entry 'Winterer2020ExpertRABIRP' is not an integer - this will probably not sort properly.
+[613] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[613] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[613] Biber.pm:4024> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[614] Biber.pm:4030> INFO - No sort tailoring available for locale 'de-DE'
+[620] bbl.pm:648> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[625] bbl.pm:751> INFO - Output to thesis.bbl
+[635] Biber.pm:110> INFO - WARNINGS: 1
