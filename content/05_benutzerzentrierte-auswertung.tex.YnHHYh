@@ -1,0 +1,14 @@
+\chapter{Benutzerzentrierte Auswertung} %TODO
+
+\section{Gestaltung der Anforderungserhebung} %TODO
+Wie wurden anfänglich die Anforderungen der Nutzer erhoben? Wie wurden die Nutzer ausgewählt?
+
+Damit die entstehende Anwendung genau auf die Bedürftnisse der Zielgruppe angepasst ist, müssen anfänglich die Anforderungen der Nutzer abgefragt werden. Dazu bietet sich eine gezielte Web-Survey an. Die Ergebnisse des Fragebogens werden dann in einen Style-Guide für die Entwicklung der tatsächlichen Anwendung übersetzt.
+
+Neben der 
+
+\section{Instanziierung der Testsettings} %TODO
+Wie wurden die entstandenen Prototypen getestet? Welche Aufgaben sollten die Nutzer durchführen? Welche Involvierung hatte der Beobachter der Tests?
+
+\section{Operationalisierung}
+Welche Nutzer? Etc.
