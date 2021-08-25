@@ -1,45 +1,58 @@
-\chapter{Interaktive Visuelle Robotersteuerung} %TODO
+\chapter{Interaktive Visuelle Robotersteuerung}\label{ch:interak-vis-roboterst} %TODO
 1-2 Absätze die dieses Kapitel einleiten (wahrscheinlich längstes Kapitel der Arbeit).
 
- Beschreibung des GUIs und der Prinzipien dahinter. Unterkapitel gerne nochmal durchmischen.
+Beschreibung des GUIs und der Prinzipien dahinter. Unterkapitel gerne nochmal durchmischen.
 
 \section{Endbenutzer-Entwicklung} %TODO umbenennen
 % Was ist Endbenutzer-Entwicklung/EUD? Was sind die Anwendungsbereiche? Welche Probleme können sie darstellen? 
+Damit die Robotersteuerung durch Endbenutzer ermöglicht werden kann muss die Entwicklungsumgebung Endbenutzer-Entwicklung implementieren. Dies ist ein aktueller Forschungszweig, der sich mit Methoden, Techniken und Werkzeugen beschäftigt, die Endbenutzern anstelle von professionellen Software-Entwicklern die Anpassung, Erweiterung oder Entwicklung von Software ermöglichen \cite{Lieberman2006EUDaEP}.
 
-Endbenutzer-Entwicklung ist, nach \citeauthor{Lieberman2006EUDaEP} \cite{Lieberman2006EUDaEP}, ein aktuelles Forschungsgebiet der Mensch-Maschine-Interaktion, das sich damit beschäftigt Methoden, Techniken und Werkzeuge zu entwickeln, die es Endnutzern, anstelle von professionellen Software-Entwicklern, ermöglichen in irgendeiner Weise Teile von Software anzupassen, erweitern oder sogar eigenständig zu entwickeln.
+Da es, wie in Kapitel \ref{sec:2.3-kollab} beschrieben, das Ziel der Entwicklungsumgebung war, Endbenutzern die Möglichkeit zu geben eigenständig ebendiese Aufgaben zu erfüllen ist es wichtig die verbreiteten Ansätze dieses Forschungsfeldes zu betrachten.
 
-Die Domäne der Endbenutzer-Entwicklung erstreckt sich von der Automatisierung von Tabellen in Tabellenkalkulations-Programmen und einfachen Makros in Textbearbeitungsprogrammen \cite{Scaffidi2005EstimatingNEUP}, über mobile Anwendungen \cite{Wolber2011AppInventor} oder Webseiten \cite{Rode2005EUDWebDev}, bis hin zu der Entwicklung von kritischen Anwendungen im Gesundheitssystem \cite{Lindgren2010ModelPKSHD}. Aktuelle Schätzungen in den USA zufolge arbeiten 90 Millionen Endbenutzer mit einer Form von Endbenutzer-Entwicklung, während nur 3 Millionen professionelle Programmierer dort arbeiten \cite{Scaffidi2005EstimatingNEUP}. \colorbox{yellow}{aktuellere Daten?}
+Endbenutzer-Entwicklung beschäftigt sich mit einem breiten Feld von verschiedenen Anwendungsfällen. Diese reichen von Tabellenkalkulation, über mobile Anwendungen und Websiten, bis hin zu der Programmierung von industriellen Robotern. Diese verschiedenen Domänen ziehen ebenso verschiedene Lösungsansätze mit sich. Im folgenden werden mehrere dieser Ansätze kurz eingeführt, mit denen Roboterprogrammierung ermöglicht werden könnte. Daraufhin wird erklärt welcher dieser Ansätze genutzt wurde um die Entwicklungsumgebung umzusetzen, und wieso dieser den anderen vorgezogen wurde. %TODO Cite Domänen
 
-Diese Weise Software zu entwickeln bringt jedoch auch viele Probleme, wie etwa Sicherheitslücken, mit sich \cite{Harrison2004DangersEUP}. Um diese und andere kritische Fehler, die in der Programmierung der jeweiligen Anwendungen vorkommen können, zu verhindern muss die EUD-Programmierumgebung die Sicherheit und Korrektheit der entstehenden Software sicher stellen, und mögliche Fehler des Endbenutzers finden oder korrigieren können. Bei der Entwicklung von Anwendungen für soziale Roboter sind Sicherheitsbedenken weniger relevant, da die Roboter nicht auf Daten arbeiten, die von kritischer Bedeutung sind und das mögliche Verhalten der Roboter klar definiert ist.
+%\hspace{0.5cm}
+%\hrule
+%
+%Endbenutzer-Entwicklung ist, nach \citeauthor{Lieberman2006EUDaEP} \cite{Lieberman2006EUDaEP}, ein aktuelles Forschungsgebiet der Mensch-Maschine-Interaktion, das sich damit beschäftigt Methoden, Techniken und Werkzeuge zu entwickeln, die es Endnutzern, anstelle von professionellen Software-Entwicklern, ermöglichen in irgendeiner Weise Teile von Software anzupassen, erweitern oder sogar eigenständig zu entwickeln.
+%
+%Die Domäne der Endbenutzer-Entwicklung erstreckt sich von der Automatisierung von Tabellen in Tabellenkalkulations-Programmen und einfachen Makros in Textbearbeitungsprogrammen \cite{Scaffidi2005EstimatingNEUP}, über mobile Anwendungen \cite{Wolber2011AppInventor} oder Webseiten \cite{Rode2005EUDWebDev}, bis hin zu der Entwicklung von kritischen Anwendungen im Gesundheitssystem \cite{Lindgren2010ModelPKSHD}. Aktuelle Schätzungen in den USA zufolge arbeiten 90 Millionen Endbenutzer mit einer Form von Endbenutzer-Entwicklung, während nur 3 Millionen professionelle Programmierer dort arbeiten \cite{Scaffidi2005EstimatingNEUP}. \colorbox{yellow}{aktuellere Daten?}
+%
+%Diese Weise Software zu entwickeln bringt jedoch auch viele Probleme, wie etwa Sicherheitslücken, mit sich \cite{Harrison2004DangersEUP}. Um diese und andere kritische Fehler, die in der Programmierung der jeweiligen Anwendungen vorkommen können, zu verhindern muss die EUD-Programmierumgebung die Sicherheit und Korrektheit der entstehenden Software sicher stellen, und mögliche Fehler des Endbenutzers finden oder korrigieren können. Bei der Entwicklung von Anwendungen für soziale Roboter sind Sicherheitsbedenken weniger relevant, da die Roboter nicht auf Daten arbeiten, die von kritischer Bedeutung sind und das mögliche Verhalten der Roboter klar definiert ist.
 
 \subsection{Arten von Endbenutzer-Entwicklung}
 % Welche Arten von EUD gibt es? Wie unterscheiden sich die Ansätze zum Ermöglichen von EUD? Was ist No-Code, Low-Code, Macro-Programmierung, Programming by Example etc.? 
+Low-Code Plattformen verringern, meistens durch graphische Benutzerschnittstellen, den Bedarf an von Hand geschriebenen Code. Je nach Plattform müssen jedoch einige Teile von Anwendungen noch selbst geschrieben werden. Dies vereinfacht und beschleunigt die Entwicklung für professionelle Programmierer und senkt die Barriere für Endbenutzer . Im Falle von No-Code Plattformen entfällt der Bedarf Code zu schreiben komplett und macht es Endbenutzern möglich diese Plattformen eigenständig zu benutzen. Diese Plattformen nutzen meist einen graphischen Ansatz, um die Programmierung ohne Code zu ermöglichen, und sind mit dem Begriff der Visuellen Programmierung verwandt. % TODO zitieren
 
-Ebenso verschieden, wie die Anwendungsbereiche von Endbenutzer-Entwicklung sind die verschiedenen Ansätze sie zu ermöglichen. Die am weitesten verbreitete Form der Endbenutzer-Entwicklung ist die Verwendung von Makros und Tabellenkalkulation \cite{Scaffidi2005EstimatingNEUP}. Hier vereinfachen Endnutzer häufig repetitive Aufgaben mit Hilfe von einfachen Kalkulationen oder automatisierten Schritten. Da dieser Ansatz jedoch meist direkt in eine Anwendung integriert ist, hat er kaum Bedeutung für die Entwicklung von Anwendungen.
+Natural Language Programming ist der Ansatz, dass Endbenutzer Programme in normalen deutschen oder englischen Sätzen schreiben. Die Sätze und Programm-Dateien folgen dabei trotzdem noch einer klar definierten Struktur, um die Interpretation durch den Computer zu ermöglichen. Aus den so geschriebenen Dateien generiert die Programmierumgebung dann für die Maschine lesbaren Code \cite{Nadkarni2011NLPIntroduction}.
 
-Low-Code Plattformen verringern, meistens durch graphische Benutzerschnittstellen, den Bedarf an von Hand geschriebenen Code. Je nach Plattform müssen jedoch einige Teile von Anwendungen noch von Hand geschrieben werden. Dies vereinfacht und beschleunigt die Entwicklung für professionelle Programmierer und senkt die Barriere für Endbenutzer. Im Falle von No-Code Plattformen entfällt der Bedarf Code zu schreiben komplett und macht es Endbenutzern möglich diese Plattformen eigenständig zu benutzen um selbst Anwendungen anzupassen, erweitern oder zu erstllen. %TODO Cite
+Programming By Example - bei der Anwendung mit Robotern auch Programming By Demonstration genannt - versucht es zu ermöglichen, dass der Endbenutzer dem Roboter oder Computer vorführt was dieser tun soll. Dies kann entweder durch Datenpaare von Ein- und Ausgabe \cite{Singh2015PredictionPBE} oder durch Sensoren geschehen, die beispielsweise Robotern gewünschte Bewegung vorführen. Daraus kann sich dann ein Anlern-Prozess entwickeln, in dem die Maschine selbst Beispiele ausführt, deren Fehler der Endbenutzer dann korrigieren kann \cite{Kurlander1993WatchPBD}.
 
-Programming By Example ist..... \colorbox{yellow}{10.8.}
+\colorbox{yellow}{Evtl. weitere Konzepte kurz umreißen}
 
-\subsection{Endbenutzer-Entwicklung in den Rehabilitationswissenschaften}
-% Wieso ist EUD für die Rehawissenschaften, spezifisch den verwendeten Roboter, relevant? Wieso ist besonders die Anpassung von vorhandenen Anwendungen eine häufige Problemstellung? Wieso wurde sich für eine No-Code Plattform entschieden?
+\subsection{Auswahl des Enbenutzer-Entwicklungs Konzepts}
 
-\section{No-Code Plattformen} %TODO umbenennen
-Was sind No-Code-Plattformen? Wo werden diese angewendet?
+Um die Entwicklungsumgebung zu erstellen wurde die Entscheidung getroffen eine No-Code Plattform zu nutzen. Einerseits sind sowohl Programming By Demonstration, als auch Natural Language Programming weitaus komplexer zu realisieren, als visuelle No-Code Plattformen. Weiterhin sind Natural Language Programming Ansätze eher auf textbasierte Anwendungen, wie maschinelle Übersetzungen und Informationsauswertung, optimiert \cite{Liddy2001NLP}. Dagegen sind visuelle No-Code Plattformen auf prozedurale Programmierung spezialisiert und mit Hilfe von einfachen Bibliotheken leicht zu realisieren. Auch sind visuell dargestellte Programme leichter zu verstehen als Textbasierte und bieten mehr Überblick über den Ablauf des Programmes. %TODO studies finden
 
-\subsection{Prinzipien von No-Code Plattformen}
-% Welche Pradigmen werden in der Entwicklung von NCDPs verwendet? Welche verschiedenen Ansätze gibt es um Programmierung ohne Code zu ermöglichen?
+\colorbox{yellow}{Weiter ausführen. Studien lesen.}
 
-\subsection{No-Code Plattformen in der Robotik}
-% Inwiefern werden No-Code-Plattformen für die Programmierung von Robotern genutzt? Welche spezifischen Möglichkeiten und Probleme entwickeln sich in dieser Domäne? Wie wird der Erfolg solcher Plattformen eingeschätzt?
+%Vorteile No-Code: Überblick, Anpassung, Einfachheit
 
-\section{Visuelle Programmierung} %TODO umbenennen
-Was ist Visuelle Programmierung? Wozu ist sie sinnvoll nutzbar? Was sind Schwächen und Herausforderungen bei der Entwicklung einer solchen Schnittstelle?
+\section{Visuelle Programmierung} \label{sec:visuelle-programmierung} %TODO umbenennen
+%Was ist Visuelle Programmierung? Wozu ist sie sinnvoll nutzbar? Was sind Schwächen und Herausforderungen bei der Entwicklung einer solchen Schnittstelle?
+
+Visuelle Programmierung ersetzt die textuellen Elemente traditioneller Programmiersprachen ausschließlich durch graphische Bausteine \cite{Schiffer1996VisuelleProgPG}. Historisch gesehen werden sie besonders in pädagogischen Umfeld \cite{SaezLopez2016VPLElementarySchool}, Benutzeroberflächen \cite{Rode2005EUDWebDev} und Robotik \cite{Weintrop2018CoBloxRoboticsProg} und sind meist dazu ausgelegt von nicht professionellen Endbenutzern bedienbar zu sein.
+
+Dementsprechend eignet sich ein visueller Programmieransatz für die Realisierung der Entwicklungsumgebung für Pepper.
+
+\colorbox{yellow}{23.8.}
+
+\subsection{Visuelle Programmierung in der Robotik}
 
 \subsection{Eigenschaften von Visueller Programmierung}
 % Wie ist VP definiert? Welche Arten von VP gibt es? 
 
-\subsection{Block-Programmierung}
+\subsection{Block-Programmierung} 
 % Wie funktionieren Block-Basierte Programmiersprachen? Wieso werden sie häufig im EUD-Kontext eingesetzt? Welche Probleme stellen sich bei der Programmierung in Block-Sprachen? Was ist Blockly?
 
-\section{Iterativer Entwicklungszyklus} %TODO
+\section{Iterativer Entwicklungszyklus} \label{sec:iterative-entwicklung} %TODO

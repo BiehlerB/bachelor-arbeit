@@ -19,38 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{Harrison2004DangersEUP}{article}{}
-      \name{author}{1}{}{%
-        {{hash=5320eed131159be49e87eecde9ca0cc1}{%
-           family={Harrison},
-           familyi={H\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{5320eed131159be49e87eecde9ca0cc1}
-      \strng{fullhash}{5320eed131159be49e87eecde9ca0cc1}
-      \strng{bibnamehash}{5320eed131159be49e87eecde9ca0cc1}
-      \strng{authorbibnamehash}{5320eed131159be49e87eecde9ca0cc1}
-      \strng{authornamehash}{5320eed131159be49e87eecde9ca0cc1}
-      \strng{authorfullhash}{5320eed131159be49e87eecde9ca0cc1}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We cannot expect secure computing from the vast majority of software applications when they’re written with little, if any, knowledge of generally accepted good practices such as specifying before coding, systematic testing, and so on. Although using professional programmers doesn’t guarantee correctness, security, or maintainability, the lack of real understanding about software development by end-user programmers poses a danger to stakeholders associated with mission-critical systems from the standpoints of both correctness and security.}
-      \field{issn}{1937-4194}
-      \field{journaltitle}{IEEE Software}
-      \field{month}{7}
-      \field{number}{4}
-      \field{title}{From the Editor: The Dangers of End-User Programming}
-      \field{volume}{21}
-      \field{year}{2004}
-      \field{pages}{5\bibrangedash 7}
-      \range{pages}{3}
-      \verb{doi}
-      \verb 10.1109/MS.2004.13
-      \endverb
-    \endentry
     \entry{Jacobsen2019PraxisbuchUuU}{book}{}
       \name{author}{1}{}{%
         {{hash=04d26ef60e85eca349673446b8253e5b}{%
@@ -71,13 +39,72 @@
       \strng{authornamehash}{04d26ef60e85eca349673446b8253e5b}
       \strng{authorfullhash}{04d26ef60e85eca349673446b8253e5b}
       \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Praxislösungen für alle Usability-Fälle Nutzer kennenlernen und verstehen Projekte sinnvoll planen und umsetzen Mit umfangreichen Usability-Guidelines Von Praktikern für Praktiker: Dieses Buch enthält alles, was Sie für die Planung und Umsetzung nutzerfreundlicher Webseiten wissen sollten. Mit modernen Tools, neuen Mapping-Methoden und aktualisierten Guidelines zu Audio, Video und Dashboards ist es auf der Höhe der Zeit. Profitieren Sie so von jahrzehntelanger Erfahrung und lernen Sie, wie Sie Seiten navigierbar gestalten, Inhalte zugänglich präsentieren und User begeistern. Die Anleitung für alle, die neue Websites erstellen oder bestehende verbessern möchten. Auch geeignet als Nachschlagewerk! Aus dem Inhalt: User Centered Design Agiles Usability-Engineering Personas, Tests und Reviews Nutzerführung und Seitengestaltung Mockups und Wireframes Mobilgeräte und Nutzungskontexte Inhaltselemente sinnvoll einsetzen Nutzerfreundlich schreiben A/B-Tests und Analysen Die Fachpresse zur Vorauflage: iX - Magazin für professionelle Informationstechnik: "In drei Teilen tragen die Autoren alle wichtigen Aspekte zusammen, die eine Webseite benutzbar machen und nebenbei ein wenig Spaß bringen." t3n: "Das Buch eignet sich für den Einstieg und auch als Nachschlagewerk." SCREENGUIDE: "Enthält alles, was Sie für die Planung und Umsetzung nutzerfreundlicher Websites und Apps benötigen."}
       \field{isbn}{9783836269551}
       \field{title}{Praxisbuch Usability und UX}
       \field{year}{2019}
+    \endentry
+    \entry{Kurlander1993WatchPBD}{book}{}
+      \name{author}{3}{}{%
+        {{hash=33e6a86474b80208f2005773e4e814b0}{%
+           family={Kurlander},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6d0636c8fba9d13589a1ea62145f17b3}{%
+           family={Cypher},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8ca12b658193854986582af984917c14}{%
+           family={Halbert},
+           familyi={H\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{89ba1c870c81010aa86bbb0fa4445db0}
+      \strng{fullhash}{89ba1c870c81010aa86bbb0fa4445db0}
+      \strng{bibnamehash}{89ba1c870c81010aa86bbb0fa4445db0}
+      \strng{authorbibnamehash}{89ba1c870c81010aa86bbb0fa4445db0}
+      \strng{authornamehash}{89ba1c870c81010aa86bbb0fa4445db0}
+      \strng{authorfullhash}{89ba1c870c81010aa86bbb0fa4445db0}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Watch what I do: programming by demonstration}
+      \field{year}{1993}
+      \verb{urlraw}
+      \verb http://acypher.com/wwid/index.html
+      \endverb
+      \verb{url}
+      \verb http://acypher.com/wwid/index.html
+      \endverb
+    \endentry
+    \entry{Liddy2001NLP}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f58f8bb3262004b24e666c5ff9ed930f}{%
+           family={Liddy},
+           familyi={L\bibinitperiod},
+           given={Elizabeth\bibnamedelima D},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f58f8bb3262004b24e666c5ff9ed930f}
+      \strng{fullhash}{f58f8bb3262004b24e666c5ff9ed930f}
+      \strng{bibnamehash}{f58f8bb3262004b24e666c5ff9ed930f}
+      \strng{authorbibnamehash}{f58f8bb3262004b24e666c5ff9ed930f}
+      \strng{authornamehash}{f58f8bb3262004b24e666c5ff9ed930f}
+      \strng{authorfullhash}{f58f8bb3262004b24e666c5ff9ed930f}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Natural Language Processing (NLP) is the computerized approach to analyzing text that is based on both a set of theories and a set of technologies. And, being a very active area of research and development, there is not a single agreed-upon definition that would satisfy everyone, but there are some aspects, which would be part of any knowledgeable person’s definition.}
+      \field{title}{Natural language processing}
+      \field{year}{2001}
     \endentry
     \entry{Lieberman2006EUDaEP}{incollection}{}
       \name{author}{4}{}{%
@@ -87,7 +114,7 @@
            given={H.},
            giveni={H\bibinitperiod}}}%
         {{hash=0766222aeb6b03744027b88bbdb593f4}{%
-           family={Paternò},
+           family={Patern{ò}},
            familyi={P\bibinitperiod},
            given={F.},
            giveni={F\bibinitperiod}}}%
@@ -112,7 +139,7 @@
       \strng{authornamehash}{c902ac6b2b500a6665b5c955ce6d7c73}
       \strng{authorfullhash}{fd3baf6f3933f796213ff920ce8d09fb}
       \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We think that over the next few years, the goal of interactive systems and services will evolve from just making systems easy to use (even though that goal has not yet been completely achieved) to making systems that are easy to develop by end users. By now, most people have become familiar with the basic functionality and interfaces of computers, but they are not able to manage any programming language. Therefore, they cannot develop new applications or modify current ones according to their needs. In order to address such challenges it is necessary a new paradigm, based on a multidisciplinary approach involving several types of expertise, such as software engineering, human-computer interaction, CSCW, which are now rather fragmented and with little interaction. The resulting methods and tools can provide results useful across many application domains, such as ERP, multi-device services (accessible through both mobile and stationary devices), and professional applications.}
@@ -122,37 +149,47 @@
       \field{pages}{1\bibrangedash 8}
       \range{pages}{8}
     \endentry
-    \entry{Lindgren2010ModelPKSHD}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=1c8b31d0d1fbd29fa61658e898948566}{%
-           family={Lindgren},
-           familyi={L\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=ad70a1b98726d31856ca5087e589c990}{%
-           family={Winnberg},
-           familyi={W\bibinitperiod},
+    \entry{Nadkarni2011NLPIntroduction}{article}{}
+      \name{author}{3}{}{%
+        {{hash=65da50041948c0f96b739362980de1ce}{%
+           family={Nadkarni},
+           familyi={N\bibinitperiod},
            given={P.},
            giveni={P\bibinitperiod}}}%
+        {{hash=f1cfb12feaf31847aa3e9a2cb515e1d7}{%
+           family={Ohno-Machado},
+           familyi={O\bibinithyphendelim M\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=234d4c9936a7a32611013aebd2de6e15}{%
+           family={Chapman},
+           familyi={C\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
       }
-      \list{organization}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{79e54cd26c4d725ea810616b4e053001}
-      \strng{fullhash}{79e54cd26c4d725ea810616b4e053001}
-      \strng{bibnamehash}{79e54cd26c4d725ea810616b4e053001}
-      \strng{authorbibnamehash}{79e54cd26c4d725ea810616b4e053001}
-      \strng{authornamehash}{79e54cd26c4d725ea810616b4e053001}
-      \strng{authorfullhash}{79e54cd26c4d725ea810616b4e053001}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \strng{namehash}{7510a1194ee00d32f3a9d15289a91be4}
+      \strng{fullhash}{7510a1194ee00d32f3a9d15289a91be4}
+      \strng{bibnamehash}{7510a1194ee00d32f3a9d15289a91be4}
+      \strng{authorbibnamehash}{7510a1194ee00d32f3a9d15289a91be4}
+      \strng{authornamehash}{7510a1194ee00d32f3a9d15289a91be4}
+      \strng{authorfullhash}{7510a1194ee00d32f3a9d15289a91be4}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{International Conference on Electronic Healthcare}
-      \field{title}{A model for interaction design of personalised knowledge systems in the health domain}
-      \field{year}{2010}
-      \field{pages}{235\bibrangedash 242}
+      \field{abstract}{{Objectives To provide an overview and tutorial of natural language processing (NLP) and modern NLP-system design.Target audience This tutorial targets the medical informatics generalist who has limited acquaintance with the principles behind NLP and/or limited knowledge of the current state of the art.Scope We describe the historical evolution of NLP, and summarize common NLP sub-problems in this extensive field. We then provide a synopsis of selected highlights of medical NLP efforts. After providing a brief description of common machine-learning approaches that are being used for diverse NLP sub-problems, we discuss how modern NLP architectures are designed, with a summary of the Apache Foundation's Unstructured Information Management Architecture. We finally consider possible future directions for NLP, and reflect on the possible impact of IBM Watson on the medical field.}}
+      \field{issn}{1067-5027}
+      \field{journaltitle}{Journal of the American Medical Informatics Association}
+      \field{month}{09}
+      \field{number}{5}
+      \field{title}{Natural language processing: an introduction}
+      \field{volume}{18}
+      \field{year}{2011}
+      \field{pages}{544\bibrangedash 551}
       \range{pages}{8}
+      \verb{doi}
+      \verb 10.1136/amiajnl-2011-000464
+      \endverb
     \endentry
     \entry{Rode2005EUDWebDev}{report}{}
       \name{author}{4}{}{%
@@ -167,7 +204,7 @@
            given={J.},
            giveni={J\bibinitperiod}}}%
         {{hash=7fa1f1377219648015d8ad393cdc4015}{%
-           family={Pérez-Quiñones},
+           family={P{é}rez-Qui{ñ}ones},
            familyi={P\bibinithyphendelim Q\bibinitperiod},
            given={M.},
            giveni={M\bibinitperiod}}}%
@@ -187,7 +224,7 @@
       \strng{authornamehash}{04d6599ecbaca00b83d5555c38670f34}
       \strng{authorfullhash}{f256b5f61a61c32712710e4300014455}
       \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We reviewed and analyzed nine commercially available web development tools from the perspective of suitability for end-user development to compare and contrast alternative and best-of-breed approaches for particular problem areas within web application development (Getting Started, Workflow, Level of Abstraction, Layout, Database, Application Logic, Testing and Debugging, Learning and Scaling, Security, Collaboration, and Deployment). End-user development involves the creation of dynamic websites with support for features like authentication, conditional display, and searching/sorting by casual web developers who have some experience creating static websites but little or no programming knowledge. We found that current tools do not lack functionality, but rather have a variety of problems in ease of use for end users who are nonprogrammers. In particular, while many tools offer wizards and other features designed to facilitate specific aspects of end-user development, none of the tools that we reviewed supports a holistic approach to web application development. We discuss the implications of these problems and conclude with recommendations for the design of improved web development tools that would lower the entry barrier into web programming.}
@@ -195,40 +232,75 @@
       \field{type}{techreport}
       \field{year}{2005}
     \endentry
-    \entry{Scaffidi2005EstimatingNEUP}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=78dffcbade911f64babd0eda5aa9a668}{%
-           family={Scaffidi},
-           familyi={S\bibinitperiod},
+    \entry{SaezLopez2016VPLElementarySchool}{article}{}
+      \name{author}{3}{}{%
+        {{hash=612bc4c403a49f7280045f858892d22f}{%
+           family={Sáez-López},
+           familyi={S\bibinithyphendelim L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3dbb5cab75b0cd59a2c8620185e4c47a}{%
+           family={Román-González},
+           familyi={R\bibinithyphendelim G\bibinitperiod},
            given={M.},
-           giveni={M\bibinitperiod},
-           suffix={C.\bibnamedelimi und\bibnamedelima Shaw},
-           suffixi={C\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=cec0a851a45505c212c94851b2170197}{%
-           family={Myers},
-           familyi={M\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
+           giveni={M\bibinitperiod}}}%
+        {{hash=4d9291d6de0e985458beb5370edd7f67}{%
+           family={Vázquez-Cano},
+           familyi={V\bibinithyphendelim C\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
       }
-      \list{organization}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{24b318e603ee48fa65d81f7a3b18720c}
-      \strng{fullhash}{24b318e603ee48fa65d81f7a3b18720c}
-      \strng{bibnamehash}{24b318e603ee48fa65d81f7a3b18720c}
-      \strng{authorbibnamehash}{24b318e603ee48fa65d81f7a3b18720c}
-      \strng{authornamehash}{24b318e603ee48fa65d81f7a3b18720c}
-      \strng{authorfullhash}{24b318e603ee48fa65d81f7a3b18720c}
+      \strng{namehash}{5077dc07c57435ffa2600a9dbec5f10c}
+      \strng{fullhash}{5077dc07c57435ffa2600a9dbec5f10c}
+      \strng{bibnamehash}{5077dc07c57435ffa2600a9dbec5f10c}
+      \strng{authorbibnamehash}{5077dc07c57435ffa2600a9dbec5f10c}
+      \strng{authornamehash}{5077dc07c57435ffa2600a9dbec5f10c}
+      \strng{authorfullhash}{5077dc07c57435ffa2600a9dbec5f10c}
       \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{In 1995, Boehm predicted that by 2005, there would be “55 million performers” of “end user programming” in the United States. The original context and method which generated this number had two weaknesses, both of which we address. First, it relies on undocumented, judgment based factors to estimate the number of end user programmers based on the total number of end users; we address this weakness by identifying specific end user sub populations and then estimating their sizes. Second, Boehm's estimate relies on additional undocumented, judgment based factors to adjust for rising computer usage rates; we address this weakness by integrating fresh Bureau of Labor Statistics (BLS) data and projections as well as a richer estimation method. With these improvements to Boehm’s method, we estimate that in 2012 there will be 90 million end users in American workplaces. Of these, we anticipate that over 55 million will use spreadsheets or databases (and therefore may potentially program), while over 13 million will describe themselves as programmers, compared to BLS projections of fewer than 3 million professional programmers. We have validated our improved method by generating estimates for 2001 and 2003, then verifying that our estimates are consistent with existing estimates from other sources.}
-      \field{booktitle}{2005 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC'05)}
-      \field{title}{Estimating the numbers of end users and end user programmers}
-      \field{year}{2005}
-      \field{pages}{207\bibrangedash 214}
-      \range{pages}{8}
+      \field{abstract}{Several authors and studies highlight the benefits of the integration of Computer Science into K-12 education. Applications such as Scratch have been demonstrated to be effective in educational environments. The aim of this study is to assess the use of a Visual Programming Language using Scratch in classroom practice, analyzing the outcomes and attitudes of 107 primary school students from 5th to 6th grade in five different schools in Spain. The intervention takes place in two academic years analyzing the practice of integrating coding and visual blocks programming in sciences and arts. The “Computational concepts and computational practices” dimension details a quasi-experimental approach, which showed significant improvement regarding learning programming concepts, logic, and computational practices with an active approach. The “Learning processes and coding in primary education” dimension analyzes the practice of the experimental group through questionnaires and structured observation. In this pedagogical design, students interact and create their own content related to curricular areas with several advantages, such as motivation, fun, commitment, and enthusiasm, showing improvements related to computational thinking and computational practices. Understanding of computational concepts through an active approach, Project Based Learning, usefulness, motivation, and commitment underline the importance and effectiveness of implementing a Visual Programming Language from active methodologies in primary education. Due to the aforementioned benefits and positive results obtained in this research, it is recommended to implement a Visual Programming Language in educational settings in 5th and 6th grade in primary education through a cross-curricular implementation.}
+      \field{issn}{0360-1315}
+      \field{journaltitle}{Computers \& Education}
+      \field{title}{Visual programming languages integrated across the curriculum in elementary school: A two year case study using “Scratch” in five schools}
+      \field{volume}{97}
+      \field{year}{2016}
+      \field{pages}{129\bibrangedash 141}
+      \range{pages}{13}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.compedu.2016.03.003
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0360131516300549
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0360131516300549
+      \endverb
+      \keyw{Computational thinking,Elementary education,Improving classroom teaching,Programming and programming languages,Teaching/learning strategies}
+    \endentry
+    \entry{Schiffer1996VisuelleProgPG}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=b6c3027e34d480d207bafb3bceb71981}{%
+           family={Schiffer},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6c3027e34d480d207bafb3bceb71981}
+      \strng{fullhash}{b6c3027e34d480d207bafb3bceb71981}
+      \strng{bibnamehash}{b6c3027e34d480d207bafb3bceb71981}
+      \strng{authorbibnamehash}{b6c3027e34d480d207bafb3bceb71981}
+      \strng{authornamehash}{b6c3027e34d480d207bafb3bceb71981}
+      \strng{authorfullhash}{b6c3027e34d480d207bafb3bceb71981}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Visuelle Programmierung ist zu einem Begriff geworden, der fur intuitive Softwareentwicklung steht. Bei der visuellen Programmierung verzichtet man weitgehend auf textuelle Notationen und verwendet statt dessen graphische Programmbausteine. Mit dem Einsatz visueller Techniken ist unter anderem die Hoffnung verbunden, Programme einfacher und besser als bisher erstellen und verstehen zu konnen, womit auch Programmierlaien der Zugang zur Softwareentwicklung geoffnet wurde. Dies konnte zu einem Abbau des vielerorts enormen Anwendungsruckstaus fuhren. Den Vorteilen von visueller Programmierung wie anschaulicher Realitatsbezug, groses Motivationsund Lernpotential, Abschwachung syntaktischer Strukturen und Betonung semantischer Zusammenhange stehen Nachteile wie fehlende Standards, geringe Darstellungsdichte, hohe Resistenz gegenuber Modifikationen, schwierige Formalisierbarkeit und beschrankte Abstraktionsmoglichkeiten gegenuber. Der Artikel lotet Potential und Grenzen der visuellen Programmierung aus und versucht eine Orientierungshilfe bei der Einschatzung dieser neuen Programmiertechnik zu geben.}
+      \field{booktitle}{GI Jahrestagung}
+      \field{title}{Visuelle Programmierung - Potential und Grenzen}
+      \field{year}{1996}
     \endentry
     \entry{Schnell2018MethodenES}{book}{}
       \name{author}{3}{}{%
@@ -258,7 +330,7 @@
       \strng{authornamehash}{b28a75d5bb7e882c5dfeeba27eb619d6}
       \strng{authorfullhash}{b28a75d5bb7e882c5dfeeba27eb619d6}
       \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Dieser Bestseller mit über 70.000 verkauften Exemplaren holt den Studierenden am Studienbeginn ab und führt ihn erfolgreich in die empirische Sozialforschung ein. Dabei schafft das Lehrbuch vielfältig den methodischen Brückenschlag von empirischer Sozialforschung und soziologischer Theorie. Es stellt Verfahren und Sachverhalte nicht nur vor, sondern erklärt sie verständlich. Die kritische Darstellung auch der neueren Entwicklungen der Methoden der empirischen Sozialforschung und ihrer Grundlagen weist über andere Lehrbücher hinaus. Auch daher ist dieses Lehrbuch das am häufigsten zitierte Lehrbuch zum Thema in deutscher Sprache.Für die 11. Auflage wurde der Band u.a. um Abschnitte über Big Data in den Sozialwissenschaften, zu adaptiven Designs bei Befragungen und zum Web-Scraping erweitert.}
@@ -266,44 +338,119 @@
       \field{title}{Methoden der empirischen Sozialforschung}
       \field{year}{2018}
     \endentry
-    \entry{Wolber2011AppInventor}{book}{}
-      \name{author}{4}{}{%
-        {{hash=72b408acb34053b1f464bfe78ebb52ed}{%
-           family={Wolber},
+    \entry{Singh2015PredictionPBE}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=0f6767e49547cbd54d3b814d4c2540a9}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           suffix={R.\bibnamedelimi und\bibnamedelima Gulwani},
+           suffixi={R\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=d1f25cade4fb9640f38ef5b67fa64515}{%
+           family={Kroening},
+           familyi={K\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           suffix={D.\bibnamedelimi und\bibnamedelima P{ă}s{ă}reanu},
+           suffixi={D\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{0f6767e49547cbd54d3b814d4c2540a9}
+      \strng{fullhash}{0f6767e49547cbd54d3b814d4c2540a9}
+      \strng{bibnamehash}{0f6767e49547cbd54d3b814d4c2540a9}
+      \strng{authorbibnamehash}{0f6767e49547cbd54d3b814d4c2540a9}
+      \strng{authornamehash}{0f6767e49547cbd54d3b814d4c2540a9}
+      \strng{authorfullhash}{0f6767e49547cbd54d3b814d4c2540a9}
+      \strng{editorbibnamehash}{d1f25cade4fb9640f38ef5b67fa64515}
+      \strng{editornamehash}{d1f25cade4fb9640f38ef5b67fa64515}
+      \strng{editorfullhash}{d1f25cade4fb9640f38ef5b67fa64515}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study the problem of efficiently predicting a correct program from a large set of programs induced from few input-output examples in Programming-by-Example (PBE) systems.}
+      \field{booktitle}{Computer Aided Verification}
+      \field{isbn}{978-3-319-21690-4}
+      \field{title}{Predicting a Correct Program in Programming by Example}
+      \field{year}{2015}
+      \field{pages}{398\bibrangedash 414}
+      \range{pages}{17}
+    \endentry
+    \entry{Weintrop2018CoBloxRoboticsProg}{inbook}{}
+      \name{author}{7}{}{%
+        {{hash=e9cae749b3b45724dd469a784cf9adf2}{%
+           family={Weintrop},
            familyi={W\bibinitperiod},
            given={D.},
            giveni={D\bibinitperiod}}}%
-        {{hash=466eb023f31a73b359386ab2f2ae5864}{%
-           family={Abelson},
+        {{hash=a56cbbb075c6461a4479c2702b8a92e9}{%
+           family={Afzal},
            familyi={A\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=f30a4d714a60387dc2bf79b1f0ae0778}{%
-           family={Spertus},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0162f6adb05b19605d96034785abb66f}{%
+           family={Salac},
            familyi={S\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=fe328d1c8696e1205c48914f3e3d812a}{%
-           family={Looney},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0121a805e38bf7e86fb23a088c2f4eab}{%
+           family={Francis},
+           familyi={F\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3cdf5aa30577e71dbbd44bcd3a4a00a0}{%
+           family={Li},
            familyi={L\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a680cf812812e87c91ca4fb059ca9de2}{%
+           family={Shepherd},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=58e710b8970a3c4213c9c32c60dcdd02}{%
+           family={Franklin},
+           familyi={F\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
       }
       \list{publisher}{1}{%
-        {"O'Reilly Media, Inc."}%
+        {Association for Computing Machinery}%
       }
-      \strng{namehash}{47b2bb34ba4ef3fa94088ecee35feebd}
-      \strng{fullhash}{ddbfc064dc3a0c36bc0bb006a66cf1e4}
-      \strng{bibnamehash}{47b2bb34ba4ef3fa94088ecee35feebd}
-      \strng{authorbibnamehash}{47b2bb34ba4ef3fa94088ecee35feebd}
-      \strng{authornamehash}{47b2bb34ba4ef3fa94088ecee35feebd}
-      \strng{authorfullhash}{ddbfc064dc3a0c36bc0bb006a66cf1e4}
+      \strng{namehash}{c7cbeec739e731e4acff4f64ed022bba}
+      \strng{fullhash}{18690e47614183d6c4e222209dfa382a}
+      \strng{bibnamehash}{c7cbeec739e731e4acff4f64ed022bba}
+      \strng{authorbibnamehash}{c7cbeec739e731e4acff4f64ed022bba}
+      \strng{authornamehash}{c7cbeec739e731e4acff4f64ed022bba}
+      \strng{authorfullhash}{18690e47614183d6c4e222209dfa382a}
       \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{App Inventor}
-      \field{year}{2011}
+      \field{abstract}{A new wave of collaborative robots designed to work alongside humans is bringing the automation historically seen in large-scale industrial settings to new, diverse contexts. However, the ability to program these machines often requires years of training, making	them inaccessible or impractical for many. This paper rethinks what robot programming interfaces could be in order to make them accessible and intuitive for adult novice programmers. We created a block-based interface for programming a one-armed industrial robot and conducted a study with 67 adult novices comparing it to two programming approaches in widespread use in industry. The results show participants using the block-based interface successfully implemented robot programs faster with no loss in accuracy while reporting higher scores for usability, learnability, and overall satisfaction. The contribution of this work is showing the potential for using block-based programming to make powerful technologies accessible to a wider audience.}
+      \field{booktitle}{Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems}
+      \field{isbn}{9781450356206}
+      \field{title}{Evaluating CoBlox: A Comparative Study of Robotics Programming Environments for Adult Novices}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3173574.3173940
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3173574.3173940
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

@@ -1,33 +1,16 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\selectlanguage *{german}
-\defcounter {refsection}{0}\relax 
-\bgroup 
-\defcounter {refsection}{0}\relax 
-\selectlanguage *{english}
-\defcounter {refsection}{0}\relax 
-\egroup 
-\defcounter {refsection}{0}\relax 
-\selectlanguage *{german}
-\defcounter {refsection}{0}\relax 
+\select@language {german}
+\select@language {english}
+\select@language {german}
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Platzhalter für Abbildungsverzeichnis.\relax }}{2}{figure.caption.4}%
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Anwendungsbeispiel der Anforderungserhebung.\relax }}{8}{figure.caption.4}% 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
+\addvspace {10\p@ }
