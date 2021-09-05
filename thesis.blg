@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.13
 [0] Config.pm:307> INFO - Logfile is 'thesis.blg'
-[80] biber-MSWIN32:315> INFO - === 
-[117] Biber.pm:375> INFO - Reading 'thesis.bcf'
-[363] Biber.pm:905> INFO - Found 11 citekeys in bib section 0
-[392] Biber.pm:4196> INFO - Processing section 0
-[404] Utils.pm:75> INFO - Globbing data source 'references.bib'
-[422] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
-[441] Biber.pm:4373> INFO - Looking for bibtex format file 'references.bib' for section 0
-[458] bibtex.pm:1462> INFO - LaTeX decoding ...
-[574] bibtex.pm:1281> INFO - Found BibTeX data source 'references.bib'
-[744] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[744] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[744] Biber.pm:4024> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[744] Biber.pm:4030> INFO - No sort tailoring available for locale 'de-DE'
-[822] bbl.pm:648> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[836] bbl.pm:751> INFO - Output to thesis.bbl
+[77] biber-MSWIN32:315> INFO - === 
+[113] Biber.pm:375> INFO - Reading 'thesis.bcf'
+[356] Biber.pm:905> INFO - Found 12 citekeys in bib section 0
+[385] Biber.pm:4196> INFO - Processing section 0
+[399] Utils.pm:75> INFO - Globbing data source 'references.bib'
+[416] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
+[435] Biber.pm:4373> INFO - Looking for bibtex format file 'references.bib' for section 0
+[451] bibtex.pm:1462> INFO - LaTeX decoding ...
+[569] bibtex.pm:1281> INFO - Found BibTeX data source 'references.bib'
+[752] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[752] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[753] Biber.pm:4024> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[753] Biber.pm:4030> INFO - No sort tailoring available for locale 'de-DE'
+[785] bbl.pm:648> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[799] bbl.pm:751> INFO - Output to thesis.bbl

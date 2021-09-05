@@ -452,6 +452,43 @@
       \verb https://doi.org/10.1145/3173574.3173940
       \endverb
     \endentry
+    \entry{Willits2016AnotherLookLikert}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7e4241746edd3b80e095bb37584c24b3}{%
+           family={Willits},
+           familyi={W\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=beb5c6c357092d217c3fa6fc8e295395}{%
+           family={Theodori},
+           familyi={T\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5e3f819d8e2a8dab0d887bf422e8b2b3}{%
+           family={Luloff},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a13ffbc797c343a75a8560a59e4cdc5b}
+      \strng{fullhash}{a13ffbc797c343a75a8560a59e4cdc5b}
+      \strng{bibnamehash}{a13ffbc797c343a75a8560a59e4cdc5b}
+      \strng{authorbibnamehash}{a13ffbc797c343a75a8560a59e4cdc5b}
+      \strng{authornamehash}{a13ffbc797c343a75a8560a59e4cdc5b}
+      \strng{authorfullhash}{a13ffbc797c343a75a8560a59e4cdc5b}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Perhaps the most widely used means for assessing survey respondents’ personal attitudes consists of a series of stem-statements followed by an odd or even number of ordered, bipolar-named categories. Such statements, known as Likert items, are named for Rensis Likert whose classic studies of attitude measurement were first published in 1932. Almost from the beginning, methodologists and psychometric scholars have raised questions concerning the number of items deemed necessary to form an attitude scale, the number and meaning of various answer categories, and the appropriate statistical methods to use in analyzing the resulting data. These deliberations are summarized. We conclude that, while continuing research on the meaning and uses of Likert scales is needed, many criticisms directed against their usage are unwarranted. Both Likert items and multi-item scales represent useful means for researchers seeking information on subjects’ attitudes.}
+      \field{journaltitle}{Journal of Rural Social Sciences}
+      \field{number}{3}
+      \field{title}{Another look at Likert scales}
+      \field{volume}{31}
+      \field{year}{2016}
+      \field{pages}{6}
+      \range{pages}{1}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
